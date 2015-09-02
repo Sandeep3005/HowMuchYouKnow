@@ -1,0 +1,85 @@
+<template name="quizDisplaySection">
+
+<div class="container">	
+
+	<div class="row">
+	 	<div class="col-md-12 result hide">
+	 		You have scored {{getScore}} out of 10
+	 	</div>
+	 </div>
+	<div class="row">
+	 	<div class="col-md-12">
+	 		<div class="">
+	 			<ul>
+	 				{{#each questions}}
+	 					{{>question}}
+	 				{{/each}}
+	 			</ul>
+	 		</div>	 		
+	 	</div>
+	 	<div class="col-md-12">
+	 		<div class="col-md-12">
+				<button type="button" class="btn btn-info btn-block btn-submit">Check How Much Do You Know</button>
+			</div>
+		</div>
+	 </div>
+</div>
+</template>
+
+<template name="question">
+
+	<div class="row">
+		<div class="col-md-12">
+			<button type="button" class="btn btn-info btn-block btn-quiz " disabled>{{Quiz}}</button>		
+		</div>
+	</div>
+	<div class="row">    
+		<div class="col-md-3 ">
+				
+		</div>
+		<div class="col-md-4 specify-output-div hide">
+			Your Answer		
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<button type="button" class="btn btn-danger btn-block btn-option btn-above-specify">{{Option1}}</button>
+		</div>
+	</div>		
+	<div class="row">		
+		<div class="col-md-12">
+			<button type="button" class="btn btn-danger btn-block btn-option basicButton">{{Option2}}</button>
+		</div>
+	</div>		
+	<div class="row">
+		<div class="col-md-12">			
+			<button type="button" class="btn btn-danger btn-block btn-option basicButton">{{Option3}}</button>
+		</div>
+	</div>	
+	<div class="row">		
+		<div class="col-md-12">
+			<button type="button" class="btn btn-danger btn-block btn-option basicButton">{{Option4}}</button>
+		</div>
+	</div>		
+	<div class="row">
+		<div class="col-md-3 ">
+				
+		</div>
+		<div class="col-md-4 specify-output-div hide">
+			Correct Answer		
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-md-12">
+			<button type="button" class="btn btn-success btn-block btn-correctOption hide basicButton">
+			{{OptionCorrect}}</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<hr width="75%"> 
+		</div>
+	</div>
+
+
+</template>

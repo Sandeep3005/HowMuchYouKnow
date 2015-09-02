@@ -1,0 +1,24 @@
+<template name="pictureDisplaySection">
+
+{{#if isWindowSmall}}
+	{{>smallPictureDisplaySection}}
+{{else}}
+	{{>largePictureDisplaySection}}
+{{/if}}
+
+{{#if rwindow.screen 'lte' 'xsmall'}}
+	  {{> small}}         
+{{else}}        
+  	{{> large}}         
+{{/if}}
+
+</template>
+
+<template name="small">
+	
+</template>
+
+<template name="large">
+
+</template>
+

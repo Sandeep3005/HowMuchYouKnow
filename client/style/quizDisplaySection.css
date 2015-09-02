@@ -1,0 +1,103 @@
+.arrangeButton
+{
+	margin: 10px;	
+}
+.topSpace
+{
+	padding-top: 100px;
+}
+.linex
+{	
+	width  : 100%;
+	height : 10px;
+}
+.btn-quiz
+{
+	margin-top: 20px;		
+	font-weight: bold;
+	font-size: 110%;
+	width:75%;
+	margin-left: auto; 
+	margin-right: auto;
+	color:#000000;
+}
+.basicButton
+{
+	width:50%;
+	margin-top: 10px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+.btn-submit
+{
+	width:50%;
+	margin-left: 27%; 
+	margin-right: auto;
+	font-weight: bold;
+	font-size: 110%;
+}
+.btn-above-specify
+{
+	width:50%;	
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 10px;
+}
+.btn-correctOption
+{
+	margin-top: 10px;	
+
+}
+.div-progress-main
+{
+	margin-left: 16%; 
+	width :72%;	
+}
+.specify-output-div
+{
+
+margin-top: 1%;
+border-top-right-radius: 2em;
+border-bottom-left-radius: 2em;
+background: -webkit-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* Chrome 10+, Saf5.1+ */
+background:    -moz-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* FF3.6+ */
+background:     -ms-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* IE10 */
+background:      -o-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* Opera 11.10+ */
+background:         linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* W3C */
+
+}
+.result
+{
+	font-family: Rockwell, "Courier New", Courier, Georgia,
+                 Times, "Times New Roman", serif;
+	font-size: 120%;                 
+}
+
+/*Media Query Section*/
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+	
+
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	
+
+}
+

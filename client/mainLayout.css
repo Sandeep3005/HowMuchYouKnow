@@ -1,0 +1,54 @@
+body
+{
+background-image: url("background_site.jpg") ;
+background-size: 100% auto;
+	/*font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;*/
+	font-family: monaco, Consolas, 'Lucida Console', monospace;
+	font-size:18px;
+	text-align: justify;
+}
+a {
+		color: white;
+		text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.center-stage {
+  margin:0 auto;  /*this will center the page */
+  /*width:85%; /*use your width here */
+  color:white;
+  border-radius:5px;
+  margin-bottom:100px;
+  padding:2%;
+  
+	
+}
+.center-stage-bottom {
+  margin:0 auto; /* this will center the page */
+  background: -webkit-linear-gradient(90deg, #2c3e50 10%, #3498db 90%); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #2c3e50 10%, #3498db 90%); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #2c3e50 10%, #3498db 90%); /* IE10 */
+  background: -o-linear-gradient(90deg, #2c3e50 10%, #3498db 90%); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #2c3e50 10%, #3498db 90%); /* W3C */
+  border-radius:2px;  
+}
+.footer-margin-top
+{
+	padding-top:10px;
+}
+#fb:hover,#youtube:hover,#tweet:hover
+{
+-moz-transform:scale(1.2); 
+-webkit-transform:scale(1.2);
+-o-transform:scale(1.2);
+}
+
+#clickMe
+{
+	background-color:purple;
+}

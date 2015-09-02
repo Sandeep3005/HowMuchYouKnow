@@ -1,0 +1,41 @@
+<template name="mainLayout">
+<!--Background and Header-->
+<a href="/"><img class="img-responsive logo" src="header.jpg" ></a>	
+	<div class="container">
+		<div class="center-stage">				
+				{{> yield}}			
+	    </div>
+	   <!--<div class="clickMeToInsert">Click Me</div>-->
+    </div>
+<!--Footer-->
+<div class="navbar navbar-default navbar-fixed-bottom center-stage-bottom footer-padding-top">
+		<div class="navbar-inner">
+			<div class="container-fluid ">
+			    <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>		
+				</div>
+				
+					<div class="row collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="col-md-4"></div>
+						<div class="col-md-4 col-xs-4">
+								Created with <span class="glyphicon glyphicon-heart" style="color:#D83B73"></span> by  Sandeep Chikhale
+						</div>
+						<div class="col-md-4">				
+						<div class="row ">
+									<div class="col-md-6 col-xs-1"></div>
+									<div class="col-md-2"><img class="img-responsive pull-right" id="fb" src="facebook.png"></div>
+									<div class="col-md-2"><img class="img-responsive pull-right" id="tweet" src="twitter.png"></div>
+									<div class="col-md-2"><img class="img-responsive pull-right" id="youtube" src="youtube.png"></div>
+							</div>
+						</div>
+					</div>
+			
+			</div>
+		</div>
+</div>
+</template>	
